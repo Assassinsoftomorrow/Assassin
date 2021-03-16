@@ -85,11 +85,19 @@ Tilemap:
   m_GameObject: {fileID: 2899929007023709518}
   m_Enabled: 1
   m_Tiles:
+<<<<<<< Updated upstream
   - first: {x: 2, y: -1, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4
       m_TileSpriteIndex: 4
+=======
+  - first: {x: -2, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -139,9 +147,13 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: de9ba03bf70fc96b68ab20d62d577aa1, type: 2}
   - m_RefCount: 1
+<<<<<<< Updated upstream
     m_Data: {fileID: 11400000, guid: ff661be70d3876b4fa5d6375932c6368, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 923b70af50a3adc25bf0a55a5d4a86b6, type: 2}
+=======
+    m_Data: {fileID: 11400000, guid: 7adaff2bd1df9c64f8acd2718776deda, type: 2}
+>>>>>>> Stashed changes
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: bf7ebbf343cee7c4b9c1a7c3f629ecfe, type: 3}
@@ -150,11 +162,17 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 35e04215fe0a1f6408b4009aea4a6149, type: 3}
   - m_RefCount: 1
+<<<<<<< Updated upstream
     m_Data: {fileID: 21300000, guid: b59fe094ae78fec48838c83c48ffa36b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: ca3c95252925ad34aa476721e2dd2092, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 5
+=======
+    m_Data: {fileID: 21300000, guid: 42d5534e8eb3f4841bee8c80a80d05da, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 4
+>>>>>>> Stashed changes
     m_Data:
       e00: 1
       e01: 0
@@ -173,12 +191,20 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< Updated upstream
   - m_RefCount: 5
+=======
+  - m_RefCount: 4
+>>>>>>> Stashed changes
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream
   m_Origin: {x: -1, y: -1, z: 0}
+=======
+  m_Origin: {x: -2, y: -3, z: 0}
+>>>>>>> Stashed changes
   m_Size: {x: 4, y: 4, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0

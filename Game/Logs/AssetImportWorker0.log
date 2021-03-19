@@ -15,11 +15,11 @@ C:/Users/Kushagra/Desktop/Avocado-man/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56443
+56642
 Successfully changed project path to: C:/Users/Kushagra/Desktop/Avocado-man/Game
 C:/Users/Kushagra/Desktop/Avocado-man/Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Resources/UnitySubsystems
@@ -27,57 +27,97 @@ Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     8085 MB
-    Driver:   26.20.100.7985
+    VRAM:     3962 MB
+    Driver:   27.21.14.5763
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003673 seconds.
+Registered in 0.002824 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.821 seconds
+- Completed reload, in  1.202 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001665 seconds.
+Registered in 0.001400 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.360 seconds
+- Completed reload, in  0.863 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1088 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 78.5 MB.
-System memory in use after: 78.5 MB.
+System memory in use after: 78.6 MB.
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1543.
-Total: 4.594900 ms (FindLiveObjects: 0.459600 ms CreateObjectMapping: 0.254300 ms MarkObjects: 3.763600 ms  DeleteObjects: 0.115400 ms)
+Total: 2.103200 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.851500 ms  DeleteObjects: 0.054700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Player/pixil-frame-0 (5).png
-  artifactKey: Guid(91c8d799abe6b584188c7aabda03ae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/pixil-frame-0 (5).png using Guid(91c8d799abe6b584188c7aabda03ae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d897ec4d80f64738787a123a06936ad') in 0.135809 seconds
-  Import took 0.138922 seconds .
+  path: Assets/game.unity
+  artifactKey: Guid(9f64d3ef70b5f0c67abea41657f71bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/game.unity using Guid(9f64d3ef70b5f0c67abea41657f71bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2576bb997d3726a8b580b45c0bef194') in 0.011955 seconds
+  Import took 0.014278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.547270 seconds.
+  path: Assets/Sprites/Player/Avocado-man (Back).png
+  artifactKey: Guid(748a98878b7f56346b3474320e5062db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Avocado-man (Back).png using Guid(748a98878b7f56346b3474320e5062db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97042cf0bb91390590541695c59befb5') in 0.255850 seconds
+  Import took 0.259891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/Player/Avocado-man (Right).png
+  artifactKey: Guid(57fd60c21d6c8ef4eb0df0a37ab3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Avocado-man (Right).png using Guid(57fd60c21d6c8ef4eb0df0a37ab3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd699718792017b883a9f8063f08f3d2') in 0.011207 seconds
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Sprites/Player/Avocado-man (cross legs).png
+  artifactKey: Guid(e7d784bd67b3fa14fa7a854e3e5b5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Avocado-man (cross legs).png using Guid(e7d784bd67b3fa14fa7a854e3e5b5b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154afc3acbcad02f6692590fe8bba645') in 0.020715 seconds
+  Import took 0.023342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Sprites/Player/Avocado-man (Movement).png
+  artifactKey: Guid(1d08837131440db44a73adbe19ba2911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Avocado-man (Movement).png using Guid(1d08837131440db44a73adbe19ba2911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c238d47d6df63f2e1b9a2d285e5b9d') in 0.015387 seconds
+  Import took 0.017925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Sprites/Player/Avocado-man (Front).png
+  artifactKey: Guid(da520c80bb7c5d845b9db46f2553b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Avocado-man (Front).png using Guid(da520c80bb7c5d845b9db46f2553b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13bd10f8a09bdbaba44820c02b9d01d') in 0.020097 seconds
+  Import took 0.022595 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

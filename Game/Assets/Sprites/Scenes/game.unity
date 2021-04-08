@@ -50308,6 +50308,7 @@ GameObject:
   - component: {fileID: 960015488}
   - component: {fileID: 960015493}
   - component: {fileID: 960015494}
+  - component: {fileID: 960015492}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -50350,6 +50351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 4
   rb: {fileID: 960015488}
+  animator: {fileID: 960015492}
 --- !u!212 &960015490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -50414,6 +50416,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &960015492
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960015487}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5201e93cd6151184da3d0ee158b5b298, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1839735485 &960015493
 Tilemap:
   m_ObjectHideFlags: 0

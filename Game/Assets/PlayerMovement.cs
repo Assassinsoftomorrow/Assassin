@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,8 +8,10 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
+    public Camera cam;
 
     Vector2 movement;
+    Vector2 mousePos;
 
     // Used for input
     void Update()
@@ -17,11 +19,13 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
         Vector3 characterScale = transform.localScale;
-        if (movement.x < 0) {
+        if (mousePos.x - transform.position.x < 0) {
             characterScale.x = -1;
         }
-        else if (movement.x >= 0) {
+        else if (mousePos.x - transform.position.x >= 0) {
             characterScale.x = 1;
         }
         transform.localScale = characterScale;

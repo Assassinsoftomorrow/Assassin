@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float movespeed = 5f;
+    public float angle;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -19,13 +20,13 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 characterScale = transform.localScale;
         if (mousePos.x - transform.position.x < 0) {
             characterScale.x = -1;
         }
-        else if (mousePos.x - transform.position.x >= 0) {
+        else if (movement.x >= 0) {
             characterScale.x = 1;
         }
         transform.localScale = characterScale;

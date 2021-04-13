@@ -50,6 +50,7 @@
      <Compile Include="Assets\Pausemenu.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\SetVolume.cs" />
+     <Compile Include="Assets\WaveSpawner.cs" />
      <Compile Include="Assets\Boundaries.cs" />
      <Compile Include="Assets\Mainmenu.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

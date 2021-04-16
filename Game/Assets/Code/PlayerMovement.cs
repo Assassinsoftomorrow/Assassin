@@ -14,7 +14,6 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
 
-    // Used for input
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -22,20 +21,18 @@ public class PlayerMovement : MonoBehaviour
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        Vector3 characterScale = transform.localScale;
         if (mousePos.x - transform.position.x < 0) {
-            characterScale.x = -1;
+            animator.SetFloat("Dir", -1);
         }
-        else if (movement.x >= 0) {
-            characterScale.x = 1;
+        else if (mousePos.x - transform.position.x >= 0) {
+            animator.SetFloat("Dir", 1);
         }
-        transform.localScale = characterScale;
 
         animator.SetFloat("Move", movement.sqrMagnitude);
     }
-    // Used for movement
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * movespeed * Time.fixedDeltaTime);
+
     }
 }

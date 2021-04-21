@@ -5,9 +5,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
 
-
     public Transform firePoint;
-    public Transform firePointLeft;
     public GameObject bulletPrefab;
 
     public float bulletForce = 7f;
@@ -23,6 +21,7 @@ public class Shooting : MonoBehaviour
     }
 
     void Shoot() {
+
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         

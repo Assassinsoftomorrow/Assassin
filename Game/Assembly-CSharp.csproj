@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\Bullet.cs" />
      <Compile Include="Assets\Code\FollowPlayer.cs" />
      <Compile Include="Assets\Code\Pausemenu.cs" />
      <Compile Include="Assets\Code\BulletScript.cs" />
@@ -56,9 +57,9 @@
      <Compile Include="Assets\Code\HomingBulletScript.cs" />
      <Compile Include="Assets\Code\WaveSpawner.cs" />
      <Compile Include="Assets\Code\Boundaries.cs" />
-     <Compile Include="Assets\HealthBar.cs" />
+     <Compile Include="Assets\Code\HealthBar.cs" />
      <Compile Include="Assets\Code\Mainmenu.cs" />
-     <Compile Include="Assets\PlayerHealth.cs" />
+     <Compile Include="Assets\Code\PlayerHealth.cs" />
      <Compile Include="Assets\Code\LifeCount.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

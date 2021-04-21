@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8461498070485847713}
   - component: {fileID: 7878929199496673949}
   - component: {fileID: 5565577701186288430}
+  - component: {fileID: 2357568455375154950}
   m_Layer: 0
   m_Name: Avo-bullet
   m_TagString: Untagged
@@ -131,3 +132,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &2357568455375154950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640665676987934537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1919e931842c745a0535de4de415cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
